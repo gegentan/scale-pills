@@ -1,3 +1,5 @@
+Requires [Pehkui](https://modrinth.com/mod/pehkui)!
+
 I wanted a mod that changes your size using pehkui, but I couldn't find one. So I made one! (And parallelly learned fabric modding)
 
 All my insipiration came from [Chiseled Me](https://www.curseforge.com/minecraft/mc-mods/chiseled-me)
