@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "scale_pills",
+	"version": "${version}",
+	"name": "Scale Pills",
+	"description": "Adds Pills that change your size using pehkui! (like the chiseled me mod)",
+	"authors": [
+		"gegentan"
+	],
+	"contact": {
+		"homepage": "https://github.com/gegentan",
+		"sources": "https://github.com/gegentan/scale-pills"
+	},
+	"license": "MIT",
+	"icon": "assets/scale_pills/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.gegentan.scalepills.ScalePills"
+		],
+		"fabric-datagen": [
+			"io.github.gegentan.scalepills.ScalePillsDataGenerator"
+		]
+	},
+	"mixins": [
+		"scale_pills.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"pehkui": ">=3.8.2"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
